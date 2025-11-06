@@ -1,4 +1,4 @@
-# hello-py — RL Task for LLMs (Leakage-Aware Modeling)
+# RL Task for LLMs (Leakage-Aware Modeling)
 
 **Goal:** Evaluate whether an LLM can build a *leakage-proof* ML pipeline and produce calibrated probabilities that achieve at least a target AUROC on a synthetic binary-classification task.
 
