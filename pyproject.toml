@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hello-py"
+version = "0.1.0"
+description = "RL task scaffolding with local and agent modes (Anthropic)"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy",
+  "pandas",
+  "scikit-learn>=1.2",
+  "python-dotenv",
+  "anthropic>=0.21.3",
+  "scipy",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"
