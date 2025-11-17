@@ -1,9 +1,3 @@
-import numpy as np
-from sklearn.metrics import roc_auc_score
-
-import config as cfg
-
-
 from typing import Any, Dict
 import numpy as np
 from sklearn.metrics import roc_auc_score
